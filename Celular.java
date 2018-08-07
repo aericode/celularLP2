@@ -1,6 +1,10 @@
 public class Celular{
 	private int credits;
 
+	public Celular(){
+		credits = 1000;
+	}
+
 	public Celular(int credits){
 		credits = credits;
 	}
